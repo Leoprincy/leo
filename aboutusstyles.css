@@ -1,0 +1,208 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Top Header styles */
+#top-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    background-image: url('images/wp7366853-mountain-night-wallpapers.jpg');
+    background-size: cover;
+    z-index: 2; /* Ensure it's above the main header */
+    width: 100%;
+    }
+    .top-header-content
+    {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        padding: 0 20px; /* Adjust padding as needed */
+    }
+
+    .logo img
+    {
+        max-height: 40px; /* Adjust height as needed */
+    }
+    .search-bar
+    {
+        display: flex;
+        align-items: auto;
+    }
+    .search-bar input[type="text"]
+    {
+        padding: 8px;
+        border: none;
+        border-radius: 4px;
+        margin-right: 1px;
+        width: 200px; /* Adjust width as needed */
+    }
+    .search-bar button
+    {
+        padding: 8px 15px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition-duration: 0.7s;
+    }
+    .search-bar button:hover
+    {
+        background-color: #c46161;
+    }
+
+/* Header styles */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 0px 0px;
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 1; /* Ensure header stays on top */
+    background-image: url('images/wp7366853-mountain-night-wallpapers.jpg');
+    background-size: cover;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    position: relative;
+    display: inline-block;
+    margin-right: 0px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    display: block;
+}
+
+header nav ul li a:hover {
+    background-color: #644db6;
+    transition-duration: 1s;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #644db6;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #3f3c3c;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #84e6cd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* About Us section */
+#about {
+    padding: 310px 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(62, 60, 60, 0.8); /* Transparent white background */
+    background-image: url('images/collage.jpg'); /* Your background image */
+    background-size: cover;
+    background-blend-mode: overlay; /* Blend mode for background */
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent white background for content */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.about-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 1.2em;
+    color: #e9e3e3; /* Ensuring text color is black */
+}
+
+/* Footer styles */
+footer {
+    background-color: #252424;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    width: 100%;
+    background-image: url('images/wp7366853-mountain-night-wallpapers.jpg');
+    background-size: cover;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 0px;
+    margin: 10px 0 0;
+}
+
+.social-links li {
+    display: inline-block;
+}
+
+.social-links a {
+    color: #d6cbcb;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+

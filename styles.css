@@ -1,0 +1,306 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Top Header styles */
+#top-header {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    background-image: url('images/wp7366853-mountain-night-wallpapers.jpg');
+    background-size: cover;
+    z-index: 2; /* Ensure it's above the main header */
+    width: 100%;
+    }
+    .top-header-content
+    {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        padding: 0 0px; /* Adjust padding as needed */
+    }
+
+    .logo img
+    {
+        max-height: 60px; /* Adjust height as needed */
+    }
+    .search-bar
+    {
+        display: flex;
+        align-items: auto;
+    }
+    .search-bar input[type="text"]
+    {
+        padding: 8px;
+        border: none;
+        border-radius: 4px;
+        margin-right: 1px;
+        width: 200px; /* Adjust width as needed */
+    }
+    .search-bar button
+    {
+        padding: 8px 15px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition-duration: 0.7s;
+    }
+    .search-bar button:hover
+    {
+        background-color: #e38787;
+    }
+
+/* Header styles */
+header {
+    background-color: #00000084;
+    color: #fff;
+    padding: 0px 0px;
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 1; /* Ensure header stays on top */
+    background-image: url('images/wp7366853-mountain-night-wallpapers.jpg');
+    background-size: cover;
+
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    position: relative;
+    display: inline-block;
+    margin-right: 0px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    display: block;
+}
+
+header nav ul li a:hover {
+    background-color: #644db6;
+    transition-duration: 1s;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #644db6;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #84e6cd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#home {
+    position: relative;
+    padding: 100px 20px 50px;
+    text-align: center;
+    background-image: url('images/cute-puppy-looking-camera-purebred-dog-nature-generated-by-artificial-intelligence\ \(1\).jpg');
+    background-size: cover;
+    background-color: #b1abab;
+    color: #ffffff;
+    height: 80vh; /* Adjust height as needed */
+
+}
+
+#home .home-content {
+    background-color: none; /* Optional: Add a semi-transparent overlay */
+    padding: auto;
+    border-radius: auto;
+}
+
+#home h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 1.2em;
+}
+
+#services {
+    padding: 50px 20px;
+    background-color: #303132;
+    text-align: center;
+}
+#services h2{
+    color: #ffffff;
+}
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-item {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+}
+
+.service-info {
+    padding: 10px;
+}
+
+.service-info h3  {
+    margin: 10px 0 5px;
+    color: #ffffff;
+}
+
+.service-info p {
+    margin: 0;
+    color: #ffffff;
+}
+
+
+.button2 {
+    display: inline-block;
+    background-color: #85d122d2;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: 0.7s;
+}
+
+.button2:hover {
+    background-color: #eb4949
+}
+.button3 {
+    display: inline-block;
+    background-color: #85d122d2;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: 0.7s;
+}
+.button3:hover {
+    background-color: #eb4949
+}
+#NEWS {
+
+    padding: 10px 5px;
+    background-color: #687281;
+    text-align: center;
+}
+
+.NEWS-content {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Snap scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+}
+
+.NEWS-info {
+    flex: 0 0 auto; /* Prevent flex items from growing */
+    width: 25%; /* Adjust width of each petcare info block */
+    padding: 10px;
+    margin: 0 50px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.NEWS-info img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.NEWS-info p {
+    font-size: 1em;
+    color: #ffffff;
+}
+
+#NEWS h2 {
+    color: rgb(255, 255, 255);
+}
+
+/* Footer styles */
+footer {
+    background-color: #302d2d;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    width: 100%;
+    background-image: url('images/wp7366853-mountain-night-wallpapers.jpg');
+    background-size: cover;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 0px;
+    margin: 10px 0 0;
+}
+
+.social-links li {
+    display: inline-block;
+}
+
+.social-links a {
+    color: #d6cbcb;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
